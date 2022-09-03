@@ -39,7 +39,7 @@ npm uninstall -g react-native-cli
 Generate a new React Native(**v0.69.5**) app using the **react-native-atom-template**:
 
 ```shell
-npx react-native init MyApp --template @ajaysidhu/react-native-template --skip-install
+npx react-native init MyApp --template react-native-atom-template --skip-install
 ```
 
 You might also be prompted to confirm the installation for the packages `react-native` and `husky`. Simply hit `enter` to proceed.
