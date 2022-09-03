@@ -6,6 +6,7 @@
     "author": "Abhinand v k <abhinandvk41@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "ora": "^6.1.2"
+        "ora": "^6.1.2",
+        "zustand": "^4.1.1"
     }
 }
