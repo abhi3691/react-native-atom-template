@@ -9,14 +9,11 @@ A starter kit for initializing a new React-Native project with some commonly use
 
 ## Key features:
 - Pre-configured folder structure
-- Basic Authentication screens(Login, Signup, Forgot Password) and flow
 - Reusable common components, utility functions and constants
-- [Logger](./template//src/utilities/logger.js) to log data more clearly using coloured logs in Chrome Debugger
 - Navigation using [react-navigation](https://reactnavigation.org/) (v6)
 - State management using [zustand](https://www.npmjs.com/package/zustand/)
 - Staging and Production environment configurations using [react-native-config](https://github.com/luggit/react-native-config)
-- TDD(Test-Driven Development) using [jest](https://jestjs.io/)
-- (Unsecured) local data storage using [axios](https://axios-http.com/docs/intro)
+- xios is a promised-based HTTP client for JavaScript. [axios](https://axios-http.com/docs/intro)
 
 
 ## Prerequisite
