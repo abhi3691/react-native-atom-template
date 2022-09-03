@@ -50,7 +50,7 @@ The template will automatically install the `npm` dependencies and the `pods` (i
 
 Check out the [documentation website](https://github.com/abhi3691/react-native-atom-template/) to learn more about the template.
 
-## Configure Bundle Ids, App Name and Google Service Files
+
 
 
 

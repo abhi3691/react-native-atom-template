@@ -4,9 +4,5 @@
     "description": "React Native Template",
     "repository": "git@github.com:abhi3691/react-native-new-template.git",
     "author": "Abhinand v k <abhinandvk41@gmail.com>",
-    "license": "MIT",
-    "dependencies": {
-        "ora": "^6.1.2",
-        "zustand": "^4.1.1"
-    }
+    "license": "MIT"
 }
