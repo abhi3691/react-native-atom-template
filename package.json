@@ -1,0 +1,11 @@
+{
+    "name": "react-native-atom-template",
+    "version": "0.0.1",
+    "description": "React Native Template",
+    "repository": "git@github.com:abhi3691/react-native-new-template.git",
+    "author": "Abhinand v k <abhinandvk41@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "ora": "^6.1.2"
+    }
+}
