@@ -13,7 +13,7 @@ A starter kit for initializing a new React-Native project with some commonly use
 - Navigation using [react-navigation](https://reactnavigation.org/) (v6)
 - State management using [zustand](https://www.npmjs.com/package/zustand/)
 - Staging and Production environment configurations using [react-native-config](https://github.com/luggit/react-native-config)
-- xios is a promised-based HTTP client for JavaScript. [axios](https://axios-http.com/docs/intro)
+- axios is a promised-based HTTP client for JavaScript. [axios](https://axios-http.com/docs/intro)
 
 
 ## Prerequisite
