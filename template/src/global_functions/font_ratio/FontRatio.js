@@ -1,13 +1,9 @@
 import { PixelRatio } from 'react-native';
+import ScreenRatio from '../screen_ratio/ScreenRatio';
 const FontRatio = (size) => {
-    const scale = screenWidth / 320;
-    const newSize = size * scale;
-    let calculatedSize = Math.round(PixelRatio.roundToNearestPixel(newSize));
-
-    if (PixelRatio.get() < 3) {
-        return calculatedSize - 0.5;
-    }
-    return calculatedSize;
+    const scale = (ScreenRatio.width/ScreenRatio.height)*2
+    const newSize = size  * scale;
+    return Math.round(PixelRatio.roundToNearestPixel(newSize));
 };
 
 export default FontRatio;
