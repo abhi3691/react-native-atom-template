@@ -136,7 +136,7 @@ android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
-        applicationId 'com.ProjectName'
+        applicationId 'com.projectname'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -163,7 +163,7 @@ android {
     }
 
     if (isNewArchitectureEnabled()) {
-        // We configure the CMake build only if you decide to opt-in for the New Architecture.
+        // We configure the NDK build only if you decide to opt-in for the New Architecture.
         externalNativeBuild {
             cmake {
                 path "$projectDir/src/main/jni/CMakeLists.txt"

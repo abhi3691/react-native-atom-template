@@ -14,7 +14,7 @@ class MainApplicationTurboModuleManagerDelegate
  public:
   // Adapt it to the package you used for your Java class.
   static constexpr auto kJavaDescriptor =
-      "Lcom/ProjectName/newarchitecture/modules/MainApplicationTurboModuleManagerDelegate;";
+      "Lcom/projectname/newarchitecture/modules/MainApplicationTurboModuleManagerDelegate;";
 
   static jni::local_ref<jhybriddata> initHybrid(jni::alias_ref<jhybridobject>);
 
@@ -24,7 +24,7 @@ class MainApplicationTurboModuleManagerDelegate
       const std::string &name,
       const std::shared_ptr<CallInvoker> &jsInvoker) override;
   std::shared_ptr<TurboModule> getTurboModule(
-       const std::string &name,
+      const std::string &name,
       const JavaTurboModule::InitParams &params) override;
 
   /**
