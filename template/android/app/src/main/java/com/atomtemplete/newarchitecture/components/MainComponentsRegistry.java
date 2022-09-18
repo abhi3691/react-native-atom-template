@@ -1,4 +1,4 @@
-package com.atomtemplete.newarchitecture.components;
+package com.ProjectName.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;

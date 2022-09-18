@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.atomtemplete",
+    package = "com.ProjectName",
 )
 
 android_resource(
     name = "res",
-    package = "com.atomtemplete",
+    package = "com.ProjectName",
     res = "src/main/res",
 )
 

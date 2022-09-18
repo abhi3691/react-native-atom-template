@@ -6,7 +6,7 @@ install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
 
-target 'atomTemplete' do
+target 'ProjectName' do
   config = use_native_modules!
 
   # Flags change depending on the env values.
@@ -28,7 +28,7 @@ target 'atomTemplete' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'atomTempleteTests' do
+  target 'ProjectNameTests' do
     inherit! :complete
     # Pods for testing
   end
