@@ -1,8 +1,14 @@
 {
     "name": "react-native-atom-template",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "description": "React Native Template",
     "repository": "https://github.com/abhi3691/react-native-atom-template",
+    "keywords": [
+        "react-native",
+        "jest",
+        "template",
+        "boilerplate"
+      ],
     "homepage": "https://github.com/abhi3691/react-native-atom-template/blob/main/README.md",
     "author": "Abhinand v k <abhinandvk41@gmail.com>",
     "license": "MIT"
