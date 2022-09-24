@@ -43,6 +43,12 @@ You might also be prompted to confirm the installation for the packages `react-n
 
 The template will automatically install the `npm` dependencies and the `pods` (if you are on the MacOS).
 
+## Link Assets
+
+```shell
+npx react-native-asset
+```
+ 
 ## Digging Deeper
 
 Check out the [documentation website](https://github.com/abhi3691/react-native-atom-template/) to learn more about the template.
