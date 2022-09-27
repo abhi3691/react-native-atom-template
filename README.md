@@ -57,7 +57,7 @@ Check out the [documentation website](https://github.com/abhi3691/react-native-a
 ### Adopting at scale
 
 <a href=" https://github.com/sponsors/abhi3691">
-  <img align="right" width="160" alt="This library helped you? Consider sponsoring!" src=".[github/funding-octocat.svg](https://github.com/sponsors/abhi3691/card)">
+  <img align="right" width="160" alt="This library helped you? Consider sponsoring!" src="https://github.com/sponsors/abhi3691/card">
 </a>
 
 
