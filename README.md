@@ -57,8 +57,9 @@ Check out the [documentation website](https://github.com/abhi3691/react-native-a
 ### Adopting at scale
 
 <a href=" https://github.com/sponsors/abhi3691">
-  <img align="right" width="160" alt="This library helped you? Consider sponsoring!" src=".github/funding-octocat.svg">
+  <img align="right" width="160" alt="This library helped you? Consider sponsoring!" src=".[github/funding-octocat.svg](https://github.com/sponsors/abhi3691/card)">
 </a>
+
 
 react-native-atom-template is provided _as is_, I work on it in my free time.
 
