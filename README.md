@@ -61,7 +61,6 @@ Check out the [documentation website](https://github.com/abhi3691/react-native-a
 </a>
 
 
-
 react-native-atom-template is provided _as is_, I work on it in my free time.
 
 If you're integrating react-native-atom-template , consider [funding this project]( https://github.com/sponsors/abhi3691) and <a href="mailto:abhinandvk41@gmail.com?subject=Adopting VisionCamera at scale">contact me</a> to receive premium enterprise support, help with issues, prioritize bugfixes, request features, help at integrating VisionCamera and/or Frame Processors, and more.
