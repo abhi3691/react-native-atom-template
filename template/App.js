@@ -5,7 +5,7 @@ import FontRatio from './src/global_functions/font_ratio/FontRatio';
 import customColor from './src/theme/Color';
 import Fonts from './src/theme/Fonts';
 import ReactIcon from './src/assets/svg_icons/react.svg' 
-import Animated, { useAnimatedStyle, useSharedValue, withSpring, withTiming } from 'react-native-reanimated';
+import Animated, { useAnimatedStyle, useSharedValue, withRepeat, withSpring, withTiming } from 'react-native-reanimated';
 const App = () => {
   const progress = useSharedValue(1);
 
@@ -20,12 +20,18 @@ const App = () => {
   })
 
   React.useEffect(()=>{
-    progress.value = withTiming(withSpring(2),1,true)
+    progress.value =withRepeat(withSpring(3), 3, true)
   },[])
   return (
     <View style={styles.container}>
-      <Text style={styles.textStyle}>WELCOME TO REACT NATIVE ATOM </Text>
+      <Text style={styles.textStyle}
+      numberOfLines={2}
+      >WELCOME TO REACT NATIVE ATOM </Text>
+      <Animated.View
+      style={rStyle}
+      >
       <ReactIcon height={FontRatio(100)} width={FontRatio(100)} />
+      </Animated.View>
     </View>
   );
 };
@@ -38,9 +44,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   textStyle: {
-    fontSize: FontRatio(20),
+    fontSize: FontRatio(30),
     color: customColor.black,
-    fontFamily:Fonts.POPPINSBLACK
+    width:ScreenRatio.width,
+    textAlign:'center',
+    fontFamily:Fonts.POPPINSBLACK,
+    margin:ScreenRatio.width/5
   },
 });
 
