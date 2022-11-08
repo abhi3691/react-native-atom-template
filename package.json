@@ -1,6 +1,6 @@
 {
     "name": "react-native-atom-template",
-    "version": "0.0.12",
+    "version": "0.0.13-beta.0",
     "description": "React Native Template",
     "repository": "https://github.com/abhi3691/react-native-atom-template",
     "keywords": [
@@ -11,5 +11,5 @@
     ],
     "homepage": "https://github.com/abhi3691/react-native-atom-template/blob/main/README.md",
     "author": "Abhinand v k <abhinandvk41@gmail.com>",
-    "license": "MIT"
+    "license": "Apache"
 }
