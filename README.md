@@ -11,6 +11,11 @@ A starter kit for initializing a new React-Native project with some commonly use
 - Staging and Production environment configurations using [react-native-config](https://github.com/luggit/react-native-config)
 - axios is a promised-based HTTP client for JavaScript. [axios](https://axios-http.com/docs/intro)
 
+<img width="166" alt="Screenshot 2022-11-08 224833" src="https://user-images.githubusercontent.com/54738565/200633118-e2839b3e-d7f4-452d-a72a-05e55ef40e15.png">
+
+<img width="374" alt="Screenshot 2022-11-08 225011" src="https://user-images.githubusercontent.com/54738565/200633181-d4441dd5-9010-4ff6-9feb-79a599dd5afe.png">
+
+
 ## Prerequisite
 
 1. Make sure that you have followed the environment setup instructions properly from the official [React Native docs](https://reactnative.dev/docs/environment-setup).
