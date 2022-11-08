@@ -5,8 +5,9 @@ import customColor from '../../../theme/Color';
 
 const styles = StyleSheet.create({
   container: {
-    height: ScreenRatio.height / 30,
-    width: ScreenRatio.width,
+    height: ScreenRatio.height / 20,
+    width: ScreenRatio.width / 3,
+    borderRadius: 10,
     alignItems: 'center',
     justifyContent: 'center',
     backgroundColor: customColor.black,
