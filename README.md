@@ -15,7 +15,6 @@ A starter kit for initializing a new React-Native project with some commonly use
 
 <img width="374" alt="Screenshot 2022-11-08 225011" src="https://user-images.githubusercontent.com/54738565/200633181-d4441dd5-9010-4ff6-9feb-79a599dd5afe.png">
 
-
 ## Prerequisite
 
 1. Make sure that you have followed the environment setup instructions properly from the official [React Native docs](https://reactnative.dev/docs/environment-setup).
@@ -48,6 +47,15 @@ The template will automatically install the `npm` dependencies and the `pods` (i
 
 ```shell
 npx react-native-asset
+```
+
+## Error Fixing (MAC| LINUX)
+
+error Failed to install the app. Make sure you have the Android development environment set up: https://facebook.github.io/react-native/docs/getting-started.html#android-development-environment.
+Error: spawnSync ./gradlew EACCES
+
+```shell
+chmod 755 android/gradlew
 ```
 
 ## Digging Deeper
