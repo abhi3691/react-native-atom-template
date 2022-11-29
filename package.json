@@ -1,7 +1,14 @@
 {
     "name": "react-native-atom-template",
-    "version": "0.0.13-beta.0",
+    "version": "0.0.14",
     "description": "React Native Template",
+    "scripts": {
+        "test": "exit 0"
+      },
+      "files": [
+        "template",
+        "template.config.js"
+      ],
     "repository": "https://github.com/abhi3691/react-native-atom-template",
     "keywords": [
         "react-native",
@@ -11,5 +18,8 @@
     ],
     "homepage": "https://github.com/abhi3691/react-native-atom-template/blob/main/README.md",
     "author": "Abhinand v k <abhinandvk41@gmail.com>",
+    "bugs": {
+        "url": "https://github.com/abhi3691/react-native-atom-template/issues"
+      },
     "license": "Apache"
 }
