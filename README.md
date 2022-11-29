@@ -33,7 +33,7 @@ npm uninstall -g react-native-cli
 
 ## Quick start
 
-Generate a new React Native(**v0.70.4**) app using the **react-native-atom-template**:
+Generate a new React Native(**v0.70.6**) app using the **react-native-atom-template**:
 
 ```shell
 npx react-native init MyApp --template react-native-atom-template --skip-install
