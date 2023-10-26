@@ -1,6 +1,6 @@
 {
     "name": "react-native-atom-template",
-    "version": "0.0.15",
+    "version": "0.1.0",
     "description": "React Native Template",
     "scripts": {
         "test": "exit 0"

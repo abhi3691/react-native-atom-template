@@ -1,5 +1,10 @@
 # react-native-atom-template
 
+
+[![npm version](https://img.shields.io/npm/v/react-native-atom-template.svg)](https://www.npmjs.com/package/react-native-atom-template)
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
 A starter kit for initializing a new React-Native project with some commonly used preconfigured libraries and the folder structure.
 
 ## Key features:
