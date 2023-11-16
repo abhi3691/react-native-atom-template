@@ -52,12 +52,11 @@ const HomeScreen = () => {
         <Buttons
           containerStyles={styles.button}
           onPress={() => gotListView()}
-          title="Go TO User List"
-          type={'AntDesign'}
+          type={'vector Icon'}
+          fontFamily="AntDesign"
           iconName="user"
-          color="white"
-          size={20}
-          textStyle={styles.lable}
+          iconcolor="white"
+          iconSize={20}
         />
       </View>
     </View>
