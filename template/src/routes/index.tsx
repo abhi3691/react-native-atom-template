@@ -13,7 +13,11 @@ const Routes = () => {
         }}>
         <Stack.Screen name="HomeScreen" component={HomeScreen} />
         <Stack.Screen name="UserList" component={UserList} />
-        <Stack.Screen name="UserProfile" component={UserProfile} />
+        <Stack.Screen
+          name="UserProfile"
+          component={UserProfile}
+          options={{presentation: 'modal', animationTypeForReplace: 'push'}}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

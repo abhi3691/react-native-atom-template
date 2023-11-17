@@ -28,7 +28,6 @@ const SingleUser: FC<props> = ({item, index}) => {
         <Animated.Image
           source={{uri: item?.picture.thumbnail}}
           style={styles.image}
-          sharedTransitionTag={`${item?.picture.large}${index}`}
         />
         <View style={styles.rightContainer}>
           <Text style={styles.name}>

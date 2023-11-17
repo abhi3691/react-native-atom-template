@@ -13,11 +13,7 @@ const UserProfile: FC<props> = ({route}) => {
   return (
     <View style={styles.container}>
       <StatusBar translucent backgroundColor="transparent" />
-      <Animated.Image
-        source={{uri: thumbnail}}
-        sharedTransitionTag={`image${name}${value}`}
-        style={styles.image}
-      />
+      <Animated.Image source={{uri: thumbnail}} style={styles.image} />
     </View>
   );
 };
