@@ -9,7 +9,7 @@ on:
 
 jobs:
   publish-npm:
-    runs-on:  self-hosted
+    runs-on:  Abhinands-Laptop
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
